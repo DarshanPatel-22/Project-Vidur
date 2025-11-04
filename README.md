@@ -8,8 +8,7 @@ Step 1: Clone the Repository
 Open your terminal and clone this project:
 
 ```
-git clone
-\[https://github.com/DarshanPatel-22/Project-Vidur.git\](https://github.com/DarshanPatel-22/Project-Vidur.git)
+git clone https://github.com/DarshanPatel-22/Project-Vidur.git
 
 cd Project-Vidur
 ```
