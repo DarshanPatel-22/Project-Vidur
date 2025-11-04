@@ -263,7 +263,7 @@ def find_malicious_ja3(ssl_log_path):
     Finds malicious JA3 TLS fingerprints by checking against a downloaded blocklist.
     """
     print("\n[*] Analyzing TLS connections for malicious fingerprints...")
-    blocklist_url = "https://sslbl.abuse.ch/ja3-fingerprints.csv"
+    blocklist_url = "https://sslbl.abuse.ch/blacklist/ja3_fingerprints.csv"
     blocklist_file = "ja3_blocklist.csv"
     findings = []
     try:
