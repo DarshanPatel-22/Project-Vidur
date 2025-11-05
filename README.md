@@ -33,6 +33,10 @@ Install the required Python libraries.
 pip install pandas
 pip install requests
 ```
+OR
+```
+sudo apt install python3-pandas python3-requests
+```
 
 How to Use
 
