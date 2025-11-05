@@ -38,6 +38,22 @@ OR
 sudo apt install python3-pandas python3-requests
 ```
 
+Step 4: Add Zeek to Your PATH
+
+Open your .zshrc file (the config file for your shell):
+
+Bash
+```
+nano ~/.zshrc
+```
+Add the PATH line: Go to the very bottom of the file and add this exact line:
+
+Bash
+```
+export PATH="/opt/zeek/bin:$PATH"
+```
+(NOTE :- zeek Path can be different)
+
 How to Use
 
 Run the single Vidur.py script. It will automatically detect the mode
