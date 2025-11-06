@@ -54,6 +54,13 @@ export PATH="/opt/zeek/bin:$PATH"
 ```
 (NOTE :- zeek Path can be different)
 
+Reload your shell config: This applies the change to your current terminal.
+
+Bash
+```
+source ~/.zshrc
+```
+
 How to Use
 
 Run the single Vidur.py script. It will automatically detect the mode
